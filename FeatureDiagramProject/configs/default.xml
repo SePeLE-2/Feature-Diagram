@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature name="TicketingSystem"/>
+	<feature name="Event"/>
+	<feature name="EventCreation"/>
+	<feature name="Rating"/>
+	<feature name="SeatMapping"/>
+	<feature name="EventOrganizerInfo"/>
+	<feature name="Contact"/>
+	<feature name="SalesProcess"/>
+	<feature name="Checkout"/>
+	<feature name="PaymentMethod"/>
+	<feature name="Ticket"/>
+	<feature name="Bundling"/>
+	<feature name="Promo"/>
+	<feature name="Single"/>
+	<feature name="Reporting"/>
+	<feature name="SalesReport"/>
+	<feature name="AttendanceStats"/>
+	<feature name="NewsArticle"/>
+	<feature name="Comment"/>
+</configuration>
