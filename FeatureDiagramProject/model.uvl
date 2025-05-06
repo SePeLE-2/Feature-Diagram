@@ -3,33 +3,26 @@ namespace TicketingSystem
 features
 	TicketingSystem {abstract true}
 		mandatory
-			Event {abstract true}
-				mandatory
-					EventCreation
+			Event
 				optional
 					Rating
 					SeatMapping
-			EventOrganizerInfo {abstract true}
-				mandatory
-					Contact
-			SalesProcess {abstract true}
-				mandatory
-					Checkout
-						optional
-							PaymentMethod
-			Ticket {abstract true}
+			EventOrganizer
+			Payment
+				or
+					CreditCard
+					EWallet
+			Ticket
 				optional
 					Bundling
 					Promo
-				mandatory
-					Single
-			Reporting {abstract true}
+			Reporting
 				mandatory
 					SalesReport
 				optional
 					AttendanceStats
 		optional
-			NewsArticle {abstract true}
+			NewsArticle
 				optional
 					Comment
 
